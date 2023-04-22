@@ -1,3 +1,5 @@
+package employee_1;
+
 public class Employee {
     private String name;
     private String position;
@@ -13,43 +15,43 @@ public class Employee {
         this.age = age;
     }
 
-    public String getName() {
+    private String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
-    public String getPosition() {
+    private String getPosition() {
         return position;
     }
 
-    public void setPosition(String position) {
+    private void setPosition(String position) {
         this.position = position;
     }
 
-    public String getEmail() {
+    private String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    private void setEmail(String email) {
         this.email = email;
     }
 
-    public String getPhone() {
+    private String getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    private void setPhone(String phone) {
         this.phone = phone;
     }
 
-    public int getAge() {
+    private int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    private void setAge(int age) {
         this.age = age;
     }
 }
